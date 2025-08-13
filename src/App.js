@@ -1,14 +1,11 @@
 import './index.css';
-
+import Heading from './components/Heading';
+import HomePage from './components/HomePage';
 function App() {
   return (
-    <div className="text-center p-6">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Hello, Tailwind CSS in React!
-      </h1>
-      <p className="mt-4 text-gray-700">
-        Setup successful.
-      </p>
+    <div className="w-screen min-h-screen bg-[#23195e] text-white flex flex-col justify-center overflow-x-hidden">
+     <Heading/>
+     <HomePage/>
     </div>
   );
 }
