@@ -29,7 +29,8 @@ function HomePage() {
     },
   ];
 
-  const GEMINI_API_KEY =process.env.REACT_APP_API_KEY;;
+  const GEMINI_API_KEY = process.env.REACT_APP_API_KEY;
+
 
   useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
